@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: rgb(120, 62, 179);
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -11,4 +12,15 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 1rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
 }/*# sourceMappingURL=styles.css.map */
