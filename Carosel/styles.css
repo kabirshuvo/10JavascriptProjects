@@ -11,4 +11,25 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.carousel {
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+  display: flex;
+  transition: transform 0.3s linear;
+  transform: translateX(0);
+}
+
+img {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+  border: none;
+  border-radius: 4px;
 }/*# sourceMappingURL=styles.css.map */
