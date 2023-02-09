@@ -6,10 +6,43 @@
 
 body {
   display: flex;
-  min-height: 100vh;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+
   font-family: "Poppins", sans-serif;
+  text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 10%;
+
+  transition: background 0.5s linear, color 0.5s linear;
+}
+
+body.dark {
+  background-color: #1f1f1f;
+  color: antiquewhite;
+}
+body.dark label {
+  background-color: antiquewhite;
+}
+.toggle-container {
+  position: fixed;
+  top: 1%;
+  right: 1%;
+}
+
+label {
+  display: inline-block;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.5s linear;
+}
+
+input {
+  visibility: hidden;
 }

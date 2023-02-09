@@ -14,7 +14,6 @@ body {
 }
 
 .carousel {
-  overflow: hidden;
   height: 500px;
   width: 500px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -27,7 +26,8 @@ body {
 }
 
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 500px;
   width: 500px;
   border: none;
